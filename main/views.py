@@ -437,6 +437,9 @@ def checkout(request):
 	else:
 		address_form = UserAddressForm(instance=request.user.userdetail)
 		u_form2 = UserAddressForm1(instance=request.user)
+
+
+		
 	subtotal = 0.0
 	delev = 0.0
 	tax = 0.0
